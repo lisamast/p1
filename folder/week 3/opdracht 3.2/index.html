@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opdracht 3.2</title>
+</head>
+<body>
+
+    <h1>Boekingsformulier</h1>
+
+    <label for="Firstname">Voornaam</label>
+    <input type="text" name="Firstname">
+
+    <br><br>
+
+    <label for="Last name">Achternaam</label>
+    <input type="text" name="Achternaam">
+    
+
+    <br><br>
+
+    <label for="Gender">Geslacht</label>
+    <input type="radio" name="Gender" value="Man" pattern="a-zA-Z"> Man 
+    <input type="radio" name="Gender" value="Vrouw" pattern="a-zA-Z"> Vrouw
+
+    <br><br>
+
+    <label for="adress">Adress</label> 
+    <input type="text" name="adress" pattern="a-zA-Z">
+    <input type="text" name="housenumber" style="width: 50px;">
+    
+    <br><br>
+
+    <label for="zipcode">Postcode</label>
+    <input type="text" name="zipcode" style="width: 90px;">
+
+    <br><br>
+
+    <label for="city">Stad</label>
+    <input type="text" name="city">
+
+    <br><br>
+
+    <label for="country">Land</label>
+    <input type="text" name="country">
+
+    <br><br>
+
+    <label for="bsn-number">BSN-nummer</label>
+    <input type="number" name="bsn-number">
+
+    <br><br>
+    
+    Country
+    <select name="destination" id="destination">
+    <option value="zwisterland">Zwitserland</option>
+    <option value="italy">Italië</option>
+    <option value="japan">Japan</option>
+    <option value="rome">Rome</option>
+    <option value="poland">Polen</option>
+    </select>
+
+    <br><br>
+
+    Vertrek
+    <label for="departure"></label>
+    <input type="date" name="departure" min="2024-09-18">
+
+    <br><br>
+
+    Terugkomst
+    <label for="coming_back"></label>
+    <input type="date" name="coming_back" min="2024-09-19">
+
+    <br><br>
+
+    Aantal reisgenoten
+    <select name="people_going" id="people">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    
+    <br><br>
+
+    <input type="submit" value="Boek nu">
+
+    <br><br>
+
+    <h3>Maak hier een account aan</h3>
+
+    Email
+    <label for="email"></label>
+    <input type="text" name="email" style="width: 300px;">  
+    
+    <br><br>
+
+    Wachtwoord
+    <label for="password"></label>
+    <input type="password" name="password">
+</form>
+
+</body>
+</html>
