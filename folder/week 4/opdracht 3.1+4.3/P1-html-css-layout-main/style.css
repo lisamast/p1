@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman"
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+.index{
+  background-image: url("img/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.start{
+  color:white;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.css{
+  h1{
+    text-align: center;
+    font-weight: bolder;
+  }
+  h2{
+    position: absolute;
+    text-align:left;
+    right: 0;
+    width: 50%;
+    font-weight: bolder;
+    margin-bottom: 20px ;
+  }
+  p{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    text-align: left;
+    padding-top: 20px;
+  }
+}
+
+.javascript{
+  background-color: black;
+  h1{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+  h2{
+    color: white;
+    font-weight: bolder;
+    text-align:left;
+    right: 0;
+    width: 50%;
+  }
+  p{
+    color: white;
+    text-align: left;
+    right: 0;
+    width: 50%;
+  }
+}
+
+.php{
+  h1{
+    text-align: center;
+    font-weight: bolder;
+  }
+  h2{
+    position: absolute;
+    text-align:left;
+    right: 0;
+    width: 50%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+  }
+  p{
+    text-align: left;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    padding-top: 20px;
+  }
+}
+
+.sql{
+  background-color: black;
+  h1{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+  h2{
+    color: white;
+    text-align:left;
+    right: 0;
+    width: 50%;
+    font-weight: bolder;
+  }
+  p{
+    color: white;
+    right: 0;
+    width: 50%;
+    text-align: left;
+  }
+}
+
+footer{
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content:center;
+}
