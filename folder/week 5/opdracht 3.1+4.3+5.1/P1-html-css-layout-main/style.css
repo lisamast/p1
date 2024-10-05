@@ -58,11 +58,12 @@ nav img {
 
 .start{
   position: absolute;
-  left:33%;
+  left:25%;
   color:white;
   text-align: center;
   font-weight: bolder;
-  font-size:xx-large;
+  font-size:xxx-large;
+  padding-top:15%;
 }
 
 .css{
@@ -88,7 +89,7 @@ nav img {
     padding-top: 20px;
     font-size: x-large;
     margin-top: 15px;
-    padding-right: 100px;
+    padding-right: 150px;
     padding-top: 30px;
   }
 }
@@ -96,6 +97,12 @@ nav img {
 #cssimg{
   float:left;
   padding: 5%;
+}
+#blue{
+  color:#0071BB;
+}
+#orange{
+  color:#E44D27;
 }
 
 .javascript{
@@ -132,8 +139,11 @@ nav img {
   float:right;
   padding: 5%;
 }
+#yellow{
+  color:#F7DF1E;
+}
 
-.php{
+.php{ 
   h1{
     text-align: center;
     font-weight: bolder;
@@ -145,26 +155,28 @@ nav img {
     right: 0;
     width: 50%;
     font-weight: bolder;
-    margin-bottom: 20px;
+    margin-bottom: 20px ;
     font-size: xx-large;
-    padding-top: 30px;
-    padding-bottom: 30px;
   }
   p{
-    text-align: left;
     position: absolute;
     right: 0;
     width: 50%;
+    text-align: left;
     padding-top: 20px;
     font-size: x-large;
     margin-top: 15px;
-    padding-right: 100px;
+    padding-right: 150px;
+    padding-top: 30px;
   }
 }
 
 #phpimg{
   float:left;
   padding: 5%;
+}
+#purple{
+  color:#8993BE;
 }
 
 .sql{
@@ -199,6 +211,9 @@ nav img {
 #sqlimg{
   float:right;
   padding: 5%;
+}
+#orange2{
+  color:#E48E00;
 }
 
 footer{
