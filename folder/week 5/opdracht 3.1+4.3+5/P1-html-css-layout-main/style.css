@@ -213,7 +213,7 @@ nav img {
     color: white;
     text-align: center;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: xxx-large;
   }
   h2{
     color: white;
@@ -238,7 +238,7 @@ nav img {
 
 #sqlimg{
   float:right;
-  padding: 5%;
+  padding: 0;
 }
 #orange2{
   color:#E48E00;
