@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100 vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px;
+}
+
+.black{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 50px;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 50px;
+}
+
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 50px;
+}
