@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -57,3 +58,64 @@ article{
 }
 
 
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 24;
+    color: blue;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20;
+    color: #0000ff;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 16;
+    color: teal;
+    font-weight: bolder;
+}
+
+p{
+    color: #4D4D4D;
+}
+
+.paragraaf{
+    color: aliceblue;
+    font-weight: bolder;
+}
+.text{
+    color:chocolate;
+}
+
+a{
+    color: #8A2BE2;
+    text-decoration: none;
+}
+.header-class{
+    border-image: fill;
+    background-position: 0%;
+    background: size cover;
+    background-image: url(./img/4.2.jpg);
+    background-repeat: no-repeat;
+}
+img{width: 50vw;}
+
+
+article{
+    border: 2px;
+    border-style: solid;
+    border-radius:20px;
+    border-color:black;
+    border-left-width: 4px;    
+}
+
+
+>>>>>>> a227175f5c9b75e1d3f3725477992f8e0add6e09
